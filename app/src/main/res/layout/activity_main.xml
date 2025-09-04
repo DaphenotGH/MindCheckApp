@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/flashcardquestion1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="370dp"
+        android:background="#032c58"
+        android:gravity="center"
+        android:text="Quel pays a la plus grande superficie dans le monde"
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/reponse1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flashcardquestion1"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/card_background"
+        android:gravity="center"
+        android:text="@string/la_russie"
+        android:textColor="#383c3d"
+        android:textSize="60dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="461dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="78dp" android:gravity="center"
+        android:background="@drawable/card_background"
+       android:text="See How Smart You Are"
+        android:textSize="20sp"
+        android:textStyle="bold"

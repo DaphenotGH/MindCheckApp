@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MindCheck</string>
+    <string name="quelle_pays_a_la_plus_grande_superficie_dans_le_monde">Quelle pays a la plus grande superficie dans le monde?</string>
+    <string name="la_russie">la Russie</string>
+</resources>
